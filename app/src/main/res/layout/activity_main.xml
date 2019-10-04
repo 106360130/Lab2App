@@ -95,14 +95,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:text="我方出拳"
-        app:layout_constraintStart_toStartOf="@+id/tv_winner"
-        app:layout_constraintTop_toBottomOf="@+id/tv_winner"
-        />
+        app:layout_constraintStart_toEndOf="@+id/tv_winner"
+        app:layout_constraintTop_toTopOf="@+id/tv_winner" />
 
     <TextView
-        android:id="@+id/tv_mmora"
+        android:id="@+id/tv_cmora"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
         android:text="電腦出拳"
         app:layout_constraintStart_toEndOf="@+id/tv_mmora"
         app:layout_constraintTop_toTopOf="@+id/tv_mmora" />
